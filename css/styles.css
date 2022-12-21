@@ -1,4 +1,19 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 800;
+  background-color: #eae0c8;
+}
+
+body .navbar {
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.masthead {
+  height: 75vh;
+  min-height: 300px;
+  background-image: url(../img/cathome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
