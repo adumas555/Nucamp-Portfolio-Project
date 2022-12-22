@@ -29,9 +29,9 @@
     <title>Espresso Catronum</title>
   </head>
   <body>
-    <header class="masthead">
+    <header class="mastheadHome">
       <nav>
-        <nav class="navbar navbar-expand-sm navbar-light sticky-top pt-0">
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top pt-0">
           <div class="container mx-2 pr-0">
             <a class="navbar-brand" href="#"
               ><img src="img/logo.png" height="175" width="175"
@@ -45,7 +45,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
-              <ul class="navbar-nav ml-auto text-white">
+              <ul class="navbar-nav ml-auto">
                 <li class="nav-item active mr-5">
                   <a class="nav-link" href="#"
                     ><i class="fa fa-home fa-lg"></i>Home</a
@@ -72,6 +72,108 @@
         </nav>
       </nav>
     </header>
-    <div class="container" id="info-cards">3 cards</div>
+
+    <div class="container mt-5" id="info-cards">
+      <div class="card-deck">
+        <div class="card col-sm-4 border border-secondary py-4">
+          <img
+            class="card-img-top"
+            src="img/cathomereserve.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Stop by or book an appointment ahead of time for a magical time
+              with the cats!
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn p-3">RESERVATIONS</button>
+          </div>
+        </div>
+        <div class="card col-sm-4 border border-secondary py-4">
+          <img
+            class="card-img-top"
+            src="img/catadopthome.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Take a look at all of our adoptable cats! Whether you met a
+              special cat at the cafe or you find one virtually!
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn p-3">ADOPT</button>
+          </div>
+        </div>
+        <div class="card col-sm-4 border border-secondary py-4">
+          <img
+            class="card-img-top"
+            src="img/cathomemenu.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Take a look at the spellbinding beverages and pastries offered!
+            </p>
+          </div>
+          <div class="card-footer text-center">
+            <button type="button" class="btn p-3">MENU</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Reservations</a></li>
+              <li><a href="#">Adopt</a></li>
+              <li><a href="#">Menu</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5 text-center">
+            <h5>Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a role="button" class="btn btn-link" href="tel:+11993412345"
+              ><i class="fa fa-phone fa-lg text-primary"></i> 1-199-341-2345</a
+            ><br />
+            <a
+              role="button"
+              class="btn btn-link"
+              href="mailto:info@expressocatronum.co"
+              ><i class="fa fa-envelope fa-lg text-primary"></i>
+              info@expressocatronum.co</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -4,16 +4,44 @@ body {
 }
 
 body .navbar {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 25px;
   color: white;
 }
 
-.masthead {
+.mastheadHome {
   height: 75vh;
   min-height: 300px;
   background-image: url(../img/cathome.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.card-img-top {
+  width: 200px;
+  height: 250px;
+  border-radius: 100%;
+  margin: 50px auto;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #a9a898;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+.card-footer .btn {
+  background-color: #566d68;
+  width: 100%;
+  font-weight: 600;
+  color: white;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
 }
